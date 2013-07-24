@@ -1,0 +1,14 @@
+{
+    "name": "AT Chrome Ext",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Setup OAuth settings"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "tabs", "http://dev.api.autotrack.nl/*/*"
+    ]
+}
